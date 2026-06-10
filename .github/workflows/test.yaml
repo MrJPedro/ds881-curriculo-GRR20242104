@@ -24,7 +24,7 @@ jobs:
   # Sobe o nginx via Docker Compose e verifica se a página está sendo servida
   # na porta 8080 com a configuração atual.
   # ---------------------------------------------------------------------------
-  serve-test:
+  build:
     name: Serve Test (nginx via Docker Compose)
     runs-on: ubuntu-latest
     steps:
