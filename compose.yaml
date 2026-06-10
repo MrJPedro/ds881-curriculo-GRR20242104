@@ -1,0 +1,8 @@
+services:
+  web-server:
+    image: nginx:latest
+    ports:
+      - 8080:80
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro # Bind mount do diretório atual para permitir hot-reload.
+                                    # montado com bind mount para permitir alteração somente de fora do contêiner
