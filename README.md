@@ -1,3 +1,29 @@
+## GitHub Pages
+[Clique aqui](https://mrjpedro.github.io/ds881-curriculo-GRR20242104/)
+
+
+## Rodando localmente
+1. Realize o checkout do repositório:
+```bash
+git clone https://github.com/MrJPedro/ds881-curriculo-GRR20242104.git
+```
+
+2. Com Docker instalado na máquina, suba a instância do compose:
+```bash
+docker compose up -d
+```
+> Se quiser acompanhar os logs:
+> ```bash
+> docker compose logs -f
+> ```
+
+3. Realize as alterações no arquivo index.html, que são refletidas instantâneamente no contêiner (para verificar no navegador, é necessário recarregar a página).
+    
+## Configuração de proteção de branch
+![Print de configuração da branch](branch-conf.png)
+
+# ENUNCIADO:
+
 # Projeto Individual: Currículo Online DS881
 
 Este repositório é um **template** para a atividade prática individual da disciplina DS881. O objetivo é aplicar conceitos de conteinerização, automação de pipeline CI/CD e governança de código em um cenário de projeto real (seu currículo ou portfólio profissional).
